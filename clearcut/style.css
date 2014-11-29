@@ -153,16 +153,18 @@ h4{
 	background-color: white;
 }
 
-#header #carousel-example-generic #long_title{
+.carousel-inner {
+	position: relative;
+}
+#header #carousel-example-generic .long_title{
 	position: absolute;
-	top: 218px;
-	left: 530px;
+	top: 217px;
+	right: 90px;
 	color: white;
 	z-index: 1;
 }
-#header #carousel-example-generic #content_title{
-	position: absolute;
-	position: absolute;
+#header #carousel-example-generic .content_title{
+	position: absolute;	
 	top: 270px;
 	left: 520px;
 	width: 325px;
